@@ -1,0 +1,88 @@
+*{
+  box-sizing: border-box;
+}
+
+
+body{
+  padding:0;
+  margin: 0;
+}
+
+/*header part*/
+.header{
+  text-align: center;
+  background: #203951;
+  padding:32px;
+  color:#fff;
+}
+/*Top Nav Part*/
+.topNav{
+  overflow:hidden;
+  background-color: rgb(58, 103, 124);
+  align-items: center;
+}
+.topNav a{
+  float: left;
+  text-decoration:none;
+  color: #000;
+  font-weight: bold;
+  padding: 13px 14px;
+}
+.topNav #right{
+  float:right;
+  background-color: brown;
+  color:#fff;
+}
+
+/*topNav hover part*/
+.topNav a:hover{
+  background-color: black;
+  color: #fff;
+}
+.topNav #right:hover{
+  background-color: rgb(26, 66, 112);
+}
+
+/*------TopNav End------*/
+/* row start */
+.leftcol{
+  float:left;
+  width: 72%;
+  background-color: rgba(62, 151, 124, 0.815);
+ margin-bottom: 20px;
+
+
+}
+.forimg{
+  background-color: rgba(187, 141, 55, 0.815);
+  padding: 20px;
+  width: 100%;
+}
+.card{
+  
+  padding: 20px;
+  margin-top: 20px;
+  
+
+}
+.rightcol{
+ float:right;
+ width: 25%;
+ margin-left: 20px;
+ /*err*/
+ margin-top: -55%;
+ padding-left: 20px;
+ 
+}
+.row::after{
+  content:"";
+  display: table;
+  clear: both;
+}
+/*footer section*/
+.footer{
+  padding: 23px;
+  background-color: rgb(58, 103, 124);
+  text-align: center;
+  width:100%;
+}
